@@ -1,0 +1,28 @@
+.header{
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  color: $headerColor;
+  z-index: 20;
+  .logo{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  nav{
+    display:inline-block;
+    float: right;
+    text-align: right;
+    a{
+      font-weight: 600;
+      display: inline-block;
+      text-decoration: none;
+      color: $headerColor;
+      padding: 0 10px;
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        color: $textColor;
+      }
+    }
+  }
+}

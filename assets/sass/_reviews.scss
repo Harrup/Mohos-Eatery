@@ -1,0 +1,58 @@
+#reviews{
+  text-align: right;
+  .col-md-6{
+    padding: 100px 20px;
+  }
+  .img{
+    height: 500px;
+    width: initial;
+    background: url("/img/chef.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .review-info{
+    .review-title{
+      color:$greyText;
+      font-size: 1.1rem;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      margin: .5rem 0 1rem;
+      font-weight: 300;
+    }
+    h2.title{
+      font-size: 2rem;
+      font-family: $displayFont;
+      text-transform: capitalize;
+      margin: .5rem 0 1.5rem;
+    }
+    p{
+      font-size: 1.1rem;
+      color: $greyText;
+      line-height: 1.6;
+      font-weight: 300;
+      margin: 1rem 0 4rem 0;
+    }
+    .quote{
+      color: $greyText;
+      font-weight: 300;
+      margin-bottom: 3rem;
+      strong{
+        color: black;
+        font-weight: 600;
+      }
+      em{
+        font-style: italic;
+      }
+    }
+    .arrows{
+      .fa-arrow-left,.fa-arrow-right{
+        font-size: 0.8rem;
+        padding: 20px 10px;
+        color: $greyText;
+        cursor: pointer;
+      }
+      .fa-arrow-left.ready,.fa-arrow-right.ready{
+        color: black;
+      }
+    }
+  }
+}

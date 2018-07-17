@@ -1,0 +1,41 @@
+#Footer{
+  background-color: $footerColor;
+  height: 400px;
+  width:100%;
+  .logo{}
+  .links{
+    text-align: center;
+    padding: 100px 0;
+    a{
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        color: $textColor;
+      }
+    }
+  }
+  .icons{
+    text-align: center;
+    color: white;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    .fa{
+      padding: 30px 20px;
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        color: $textColor;
+      }
+    }
+  }
+  p{
+    text-align: center;
+    color: $greyText;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  }

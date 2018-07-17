@@ -1,0 +1,85 @@
+#SpecialMenu{
+  position: relative;
+  height:100vh;
+  background: url("https://images.unsplash.com/photo-1526541260187-fe49a4f44fc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=753882758d333a4e8c8ba87b053e039e&auto=format&fit=crop&w=1650&q=80") no-repeat center center;
+  background-size: cover;
+  padding: 65px 200px;
+  .special-title{
+    color:$greyText;
+    font-size: 1.1rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .5rem 0 1rem;
+    font-weight: 300;
+  }
+  h2{
+    font-size: 2rem;
+    font-family: $displayFont;
+    text-transform: capitalize;
+    text-align: center;
+    margin: .5rem 0 1.5rem;
+  }
+  .row{
+    .col-md-4{
+      margin-bottom: 60px;
+      .box{
+        background: white;
+        height: 417px;
+        width: 100%;
+        .img{
+          // background: url("https://images.unsplash.com/photo-1452967712862-0cca1839ff27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf7795a1be8eb3570d9b23c7f0f61bda&auto=format&fit=crop&w=1650&q=80") no-repeat center center;
+          // background-size: cover;
+          height: 200px;
+          width: 100%;
+          position: relative;
+          margin-bottom: 50px;
+          .price-circle{
+            background: white;
+            border: 10px solid rgba(255,255,255,0.7);
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $displayFont;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            left:50%;
+            transform: translate(-50%, 50%);
+            box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.6);
+          }
+        }
+        .details{
+          padding: 10px;
+          h5{
+            font-size: 0.9rem;
+            text-transform: capitalize;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 25px;
+          }
+          p{
+            font-size: 0.8rem;
+            color: $greyText;
+            line-height: 1.2;
+            font-weight: 300;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .full-menu{
+    text-align: center;
+    display:block;
+    // left: 50%;
+    color: black;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-family:$displayFont;
+  }
+}

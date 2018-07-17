@@ -1,0 +1,80 @@
+#ContactUs{
+  position: relative;
+  height:100vh;
+  background: url("https://images.unsplash.com/photo-1526541260187-fe49a4f44fc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=753882758d333a4e8c8ba87b053e039e&auto=format&fit=crop&w=1650&q=80") no-repeat center center;
+  background-size: cover;
+  padding: 65px 200px;
+  .contact-title{
+      color:$greyText;
+      font-size: 1.1rem;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      margin: .5rem 0 1rem;
+      font-weight: 300;
+      text-align: center;
+    }
+    h2.title{
+      font-size: 2rem;
+      font-family: $displayFont;
+      text-transform: capitalize;
+      margin: .5rem 0 1.5rem;
+      text-align: center;
+    }
+    .box{
+      padding: 70px;
+      background: white;
+      .col-md-6{
+
+      }
+      .address{
+        .city{
+          font-size: 2rem;
+          font-family: $displayFont;
+          text-transform: capitalize;
+          margin: .5rem 0 1.5rem;
+          span{
+            color: $greyText;
+          }
+        }
+          p{
+            strong{
+              font-weight: 600;
+              color: black;
+              font-size: 0.9rem;
+            }
+            a{
+              color: $greyText;
+              text-decoration: none;
+              font-size: 0.9rem;
+              transition: all 0.5s ease-in-out;
+              &:hover{
+                color: $textColor;
+              }
+            }
+            color: $greyText;
+            line-height: 1.6;
+            font-weight: 300;
+            margin: 1rem 0 4rem 0;
+        }
+      }
+      .contact{
+        .call{
+          color: $greyText;
+        }
+        h5{
+          font-weight: 600;
+          font-size: 0.9rem;
+          padding: 20px 0;
+        }
+        h1{
+          font-size: 2rem;
+          font-family: $displayFont;
+          margin-bottom: 2rem;
+        }
+        p{
+          color: $greyText;
+          line-height: 1.6;
+        }
+      }
+    }
+  }

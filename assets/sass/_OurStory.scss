@@ -1,0 +1,64 @@
+
+#OurStory{
+  padding: 100px 0;
+  .col-md-6{
+    padding: 80px;
+  }
+  .quote-info{
+    .quote-title{
+      color:$greyText;
+      font-size: 1.1rem;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      margin: .5rem 0 1rem;
+      font-weight: 300;
+    }
+    h2{
+      font-size: 2rem;
+      font-family: $displayFont;
+      text-transform: capitalize;
+      margin: .5rem 0 1.5rem;
+    }
+    p{
+      font-size: 1.1rem;
+      color: $greyText;
+      line-height: 1.6;
+      font-weight: 300;
+      margin: 1rem 0 4rem 0;
+    }
+    .quote{
+      color: $greyText;
+      font-weight: 300;
+      margin-bottom: 3rem;
+      strong{
+        color: black;
+        font-weight: 600;
+      }
+      em{
+        font-style: italic;
+      }
+    }
+    .reserve-btn{
+      font-family: $displayFont;
+      display: inline-block;
+      padding: 20px 40px;
+      //min-width: 200px;
+      border: 1px solid black;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      transition: all 0.5s ease-in-out;
+      &:hover{
+        background: orange;
+        color: black;
+      }
+    }
+  }
+  .img{
+    height: 500px;
+    width: initial;
+    background: url("/img/ourstory.jpeg") no-repeat center center;
+    background-size: cover;
+  }
+}
