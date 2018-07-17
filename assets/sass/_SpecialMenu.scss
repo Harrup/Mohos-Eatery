@@ -83,3 +83,10 @@
     font-family:$displayFont;
   }
 }
+
+@media(max-width: 768px){
+  #SpecialMenu{
+    padding: 15px 0px;
+    height:100%;
+  }
+}
