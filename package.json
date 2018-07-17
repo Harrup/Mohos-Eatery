@@ -1,9 +1,9 @@
 {
-  "name": "CodingPhase-StarterKit",
+  "name": "Mohos Eatery framework from CodingPhase",
   "version": "1.0.0",
-  "description": "Super Cool Framework",
+  "description": "Hyperapp resteraunt webapp",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "Harrup",
   "license": "MIT",
   "homepage": "http://rocky.codingphase.com/",
   "dependencies": {
@@ -44,7 +44,8 @@
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
     "sass": "gulp styles",
-    "js": "gulp webpack"
+    "js": "gulp webpack",
+    "start":"node server.js"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
