@@ -101,8 +101,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var companyInfo = {
-  name: 'la grande maison',
-  phoneNumber: '718-432-4576'
+  name: 'Mohos Eatery',
+  phoneNumber: '613-432-4576'
 
 };
 
@@ -243,8 +243,8 @@ function ContactUs(_ref) {
               ),
               (0, _hyperapp.h)(
                 "a",
-                { href: "mailto:info@lagrandemaison.com" },
-                "info@lagrandemaison.com"
+                { href: "mailto:info@mohoseatery.com" },
+                "info@mohoseatery.com"
               )
             )
           ),
@@ -372,7 +372,7 @@ function Footer(_ref) {
       (0, _hyperapp.h)(
         "p",
         null,
-        " \xA9 Le Grande Maison 2018"
+        " \xA9 Moho's Eatery 2018"
       ),
       (0, _hyperapp.h)(
         "p",
@@ -438,13 +438,13 @@ function OurStory(_ref) {
             (0, _hyperapp.h)(
               "strong",
               null,
-              "Thomas Eggsy"
+              "Moses Eggsy"
             ),
             " - ",
             (0, _hyperapp.h)(
               "em",
               null,
-              "Master chef at Le Grande Maison"
+              "Master chef at Moho's Eatery"
             )
           ),
           (0, _hyperapp.h)(
@@ -743,9 +743,9 @@ function TopImg(_ref) {
         (0, _hyperapp.h)(
           "h1",
           null,
-          "le Grande  ",
+          "Moho's  ",
           (0, _hyperapp.h)("br", null),
-          "Maison"
+          "Eatery"
         )
       ),
       (0, _hyperapp.h)(

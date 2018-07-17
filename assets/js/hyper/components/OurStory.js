@@ -13,7 +13,7 @@ export default function OurStory({state, actions}) {
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
-            <div class="quote"><strong>Thomas Eggsy</strong> - <em>Master chef at Le Grande Maison</em></div>
+            <div class="quote"><strong>Moses Eggsy</strong> - <em>Master chef at Moho's Eatery</em></div>
             <a href="#" class="reserve-btn">Reservation</a>
           </div>
           <div class="col-md-6">

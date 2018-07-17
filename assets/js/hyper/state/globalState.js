@@ -1,6 +1,6 @@
 var companyInfo = {
-  name: 'la grande maison',
-  phoneNumber:'718-432-4576',
+  name: 'Mohos Eatery',
+  phoneNumber:'613-432-4576',
 
 }
 

@@ -11,7 +11,7 @@ export default function ContactUs({state, actions}) {
             <div class="col-md-6 address">
               <div class="city">Ottawa, <span>Ontario</span></div>
               <p>3000 Dalhousie Street <br /> K1N 8X2 <br />Ottawa, Ontario</p>
-              <p><strong>Email:</strong><a href="mailto:info@lagrandemaison.com">info@lagrandemaison.com</a></p>
+              <p><strong>Email:</strong><a href="mailto:info@mohoseatery.com">info@mohoseatery.com</a></p>
             </div>
             <div class="col-md-6 contact">
               <h5 class="call">Call directly:</h5>

@@ -17,7 +17,7 @@ export default function Footer({state, actions}) {
           <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
           <a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
         </div>
-        <p> © Le Grande Maison 2018</p>
+        <p> © Moho's Eatery 2018</p>
         <p>Built By Harrup. All rights reserved</p>
       </div>
     </section>
