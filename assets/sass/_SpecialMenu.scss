@@ -1,6 +1,6 @@
 #SpecialMenu{
   position: relative;
-  height:100vh;
+  //height:100vh;
   background: url("https://images.unsplash.com/photo-1526541260187-fe49a4f44fc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=753882758d333a4e8c8ba87b053e039e&auto=format&fit=crop&w=1650&q=80") no-repeat center center;
   background-size: cover;
   padding: 65px 200px;
@@ -84,9 +84,28 @@
   }
 }
 
-@media(max-width: 768px){
+// @media(max-width: 768px){
+//
+// }
+/* Responsive */
+/* Phones */
+@media only screen and (max-width:767px){
   #SpecialMenu{
-    padding: 15px 0px;
-    height:100%;
+      padding: 15px 0px;
+      height:100%;
+    }
+}
+
+/* Responsive */
+/* Tablet */
+@media only screen and (max-width:960px){
+  #SpecialMenu{
+    .row{
+      .col-md-4{
+        .box{
+
+        }
+      }
+    }
   }
 }

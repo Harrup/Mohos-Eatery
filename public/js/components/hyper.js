@@ -372,7 +372,7 @@ function Footer(_ref) {
       (0, _hyperapp.h)(
         "p",
         null,
-        " \xA9 Moho's Eatery 2018"
+        " \xA9 Moho's Eatery 2019"
       ),
       (0, _hyperapp.h)(
         "p",
@@ -816,7 +816,7 @@ function Header(_ref) {
       (0, _hyperapp.h)(
         "div",
         { "class": "logo" },
-        (0, _hyperapp.h)("i", { "class": "fa fa-opencart" })
+        "MOHOS"
       ),
       (0, _hyperapp.h)(
         "nav",

@@ -4,7 +4,7 @@ export default function Header({state, actions}) {
   return (
     <header class="header">
       <div class="container">
-        <div class="logo"><i class="fa fa-opencart"></i></div>
+        <div class="logo">MOHOS</div>
         <nav>
           <a href="#">Menu</a>
           <a href="#">Party Platter</a>
