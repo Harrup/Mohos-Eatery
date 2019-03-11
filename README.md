@@ -1,7 +1,7 @@
-# Starter-Kit-framework
+# Mohos-Eatery
 
 
-Frame work from codingphase.com
+To run mohos-eatery locally, follow the simple steps below
 
 **Steps**
 ---------
